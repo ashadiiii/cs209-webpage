@@ -14,3 +14,7 @@ Pushing changes to your own branch
 - git push origin [name of your branch]
 
 
+Pulling latest changes in main to your branch
+- You go to your created branch by "git checkout [your-sub-branch]"
+- git fetch origin
+- git merge origin/main
