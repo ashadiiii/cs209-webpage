@@ -1,0 +1,289 @@
+/* General styling */
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #6F4E37;
+    padding: 20px 0;
+    border-bottom: 3px solid #6F4E37 ;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    letter-spacing: 5px;
+    margin: 0;
+    color: #ECB176; /* Low contrast yellow */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.sidebar {
+    background-color: #FFFFFF; /* White background for sidebar */
+    padding: 20px;
+    width: 25%;
+    border-right: 2px solid #FF4500; /* Reddit orange */
+}
+
+.joined-btn {
+    background-color: #FF4500; /* Reddit orange */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.joined-btn:hover {
+    background-color: #FF6600; /* Darker orange */
+}
+
+main {
+    width: 70%;
+}
+
+#post-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#post-title,
+#post-description {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #FF4500; /* Reddit orange */
+    color: red;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF6600; /* Darker orange */
+}
+
+#posts {
+    margin-top: 20px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF; /* White background for posts */
+    padding: 20px;
+    border: 2px solid #FF4500;
+    margin: 10px 0;
+}
+
+.vote-btn {
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.upvote {
+    color: red; 
+}
+
+.downvote {
+    color: green; 
+}
+
+.vote-count {
+    font-size: 20px;
+    color: #ff9900; /* Orange-yellow for low contrast */
+    margin: 0 10px;
+}
+
+.post-content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.post-title {
+    font-size: 24px;
+    margin: 0;
+    color: #ffcc00; /* Low contrast yellow */
+}
+
+.post-description {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #FF6600; /* Low contrast with white */
+}
+
+.delete-btn {
+    color: red;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.edit-btn {
+    color: blue;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.comments {
+    margin-top: 10px;
+}
+
+.comment {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #FF9900; /* Orange-yellow, low contrast */
+}
+
+footer {
+    background-color: #6F4E37; 
+    padding: 20px 0;
+    border-top: 3px solid #FF6600; /* Slightly darker orange */
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 18px;
+    color: #ffcc00; /* Low contrast yellow */
+    margin: 0;
+}
+
+.online {
+    color: #333;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red; /* Red dot for online status */
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.help-section {
+    background-color: #f1f1f1; /* Light gray background */
+    padding: 20px;
+    border: 2px solid #FF4500; /* Reddit orange border */
+    margin: 20px 0;
+}
+
+.help-section h2 {
+    color: #FF4500; /* Reddit orange */
+}
+
+.help-section ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0;
+}
+
+.help-section li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.example-post {
+    background-color: #fff; /* White background for example post */
+    border: 1px solid #FF4500; /* Reddit orange border */
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.example-post .post-title {
+    font-size: 20px;
+    color: #FF4500; /* Reddit orange */
+    margin: 0;
+}
+
+.example-post .post-description {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333; 
+}
+
+.post-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.vote-count {
+    margin-right: 10px;
+}
+
+.rules-section {
+    margin-top: 20px;
+    font-size: 10px; /* Very small text */
+    color: #333; /* Dark gray for less contrast */
+}
+
+.rules-section h2 {
+    text-decoration: underline; /* Underline the section title */
+}
+
+.rules-section ol, .rules-section ul {
+    list-style-position: inside; /* List markers inside */
+    margin: 5px 0; /* Small margin for lists */
+}
+
+.rules-section li {
+    margin-bottom: 2px; /* Small spacing between list items */
+    line-height: 1.1; /* Less spacing for readability */
+}
+
+.suggested-groups {
+    background-color: #f8f9fa;
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    max-width: 250px;
+    font-family: Arial, sans-serif;
+}
+
+.suggested-groups h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #1a1a1b;
+}
+
+.suggested-groups ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.group-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.group-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.group-name {
+    font-size: 14px;
+    color: #0079d3;
+}
+
