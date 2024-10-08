@@ -157,13 +157,13 @@ button:hover {
 footer {
     background-color: #6F4E37; 
     padding: 20px 0;
-    border-top: 3px solid #FF6600; /* Slightly darker orange */
+    border-top: 3px solid #6F4E37; /* Slightly darker orange */
     margin-top: 20px;
 }
 
 footer p {
     font-size: 18px;
-    color: #ffcc00; /* Low contrast yellow */
+    color: ; /* Low contrast yellow */
     margin: 0;
 }
 
